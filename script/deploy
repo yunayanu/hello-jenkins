@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -xl
 ssh app@208.68.38.44 <<EOF
 export HOME="/home/app"
 echo $HOME
